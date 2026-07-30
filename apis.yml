@@ -1,22 +1,87 @@
 aid: knit-health
 name: Knit Health
-description: Knit Health is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Knit Health Technologies, Inc. is a healthcare AI company spun out of
+  the University of California, Berkeley, building what it calls a Large Clinical Behavior
+  Model (LCBM) — a healthcare-native intelligence layer trained on real clinical decision
+  patterns rather than text alone. Where conventional clinical AI is built on large
+  language models trained on medical literature, Knit learns from the actions of practicing
+  clinicians captured in electronic medical records: referral decisions, scheduling
+  behavior, patient routing, discharge timing, and care coordination. The model is
+  trained on Truveta EMR data representing more than 130 million patients across 30
+  U.S. health systems, using deep reinforcement learning, causal inference, and behavioral
+  cloning, then fine-tuned to an individual health system''s own practice patterns.
+  Knit sells to health systems as an enterprise intelligence platform spanning intelligent
+  specialist routing, predictive patient flow, optimized care team allocation, clinical
+  variation insight, and proactive care recommendations. The company launched from
+  stealth in May 2026 with an $11.6M seed round co-led by Uncork Capital and Frist
+  Cressey Ventures, following a pre-seed led by Moxxie Ventures with Coalition Operators.
+  Knit states that its engineers work alongside customer teams to design and deploy
+  APIs tailored to each health system; as of this profile there is no public developer
+  portal, API documentation, or self-serve API surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69a5d08b91d4e7178ca8b64b/69bc3d66a177838f0883c144_WEBCLIP.png
 url: https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - uncork-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+x-legal-name: Knit Health Technologies, Inc.
+x-founded: '2025'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Clinical Intelligence
+- Electronic Health Records
+- Health Systems
+- Care Coordination
+- Enterprise
 apis: []
+common:
+- type: DomainSecurity
+  url: security/knit-health-domain-security.yml
+- type: Website
+  url: https://www.knit.health/
+- type: Blog
+  url: https://www.knit.health/blog
+- type: Contact
+  url: https://www.knit.health/contact
+- type: PrivacyPolicy
+  url: https://www.knit.health/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/knit-health-technologies
+- type: UseCases
+  url: https://www.knit.health/#use-cases
+- type: Models
+  url: https://www.knit.health/ai
+- type: Careers
+  url: https://job-boards.greenhouse.io/knithealth
+- type: LLMsTxt
+  url: llms/knit-health-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
