@@ -1,0 +1,52 @@
+# Knit Health
+
+> Knit Health Technologies, Inc. is a UC Berkeley spin-out building a Large Clinical
+> Behavior Model (LCBM) — a healthcare-native AI trained on the real decision patterns
+> of practicing clinicians (referrals, scheduling, routing, discharge timing, care
+> coordination) captured in EMR data, rather than on medical text alone. It is sold to
+> health systems as an enterprise intelligence platform. Knit publishes no public API,
+> developer portal, or SDK; integrations are delivered as bespoke APIs designed with
+> customer engineering teams.
+
+## Company
+
+- [Knit Health](https://www.knit.health/): Company home — the Knit Intelligence Platform.
+- [Company](https://www.knit.health/company): Founding team, mission, and investors.
+- [Knit AI](https://www.knit.health/ai): How the Large Clinical Behavior Model works.
+- [Contact](https://www.knit.health/contact): Business contact form.
+- [Careers](https://job-boards.greenhouse.io/knithealth): Open roles (Greenhouse).
+- [LinkedIn](https://www.linkedin.com/company/knit-health-technologies): Company updates.
+
+## Use cases
+
+- [Intelligent Specialist Routing](https://www.knit.health/use-cases/intelligent-specialist-routing): Model care pathways to accelerate or redirect patients.
+- [Predictive Patient Flow](https://www.knit.health/use-cases/predictive-patient-flow): Real-time patient journey analysis to unblock hospital flow.
+- [Optimized Care Team Allocation](https://www.knit.health/use-cases/optimized-care-team-allocation): Match ambulatory patients across MDs, APPs, and virtual care.
+- [Actionable Clinical Variation Insight](https://www.knit.health/use-cases/actionable-clinical-variation-insight): Learn from top-performing clinicians to find systemwide improvements.
+- [Proactive Care Recommendations](https://www.knit.health/use-cases/proactive-care-recommendations): Monitor records to surface emerging care needs.
+
+## Blog
+
+- [Blog](https://www.knit.health/blog): Company, press, and AI + healthcare posts.
+- [Knit Health raises $11.6M](https://www.knit.health/blog/knit-health-raises-11-6m-for-fundamentally-different-approach-to-healthcare-ai): Endpoints News coverage of the seed round, May 12, 2026.
+- [Deep Causal Behavioral Policy Learning](https://www.knit.health/blog/deep-causal-behavioral-policy-learning-applications-to-healthcare): Research post on the method behind the LCBM, March 5, 2026.
+
+## Legal
+
+- [Privacy Policy](https://www.knit.health/privacy): Applies to the public website only; no PHI is collected through the site. Contact privacy@knit.health.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/apis.yml): APIs.json profile for Knit Health.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/security/knit-health-domain-security.yml): Probed TLS/HSTS/DNS posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/well-known/knit-health-well-known.yml): Recorded absence of a /.well-known/ discovery surface.
+
+## Notes
+
+- No public API, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, sandbox, status
+  page, changelog, pricing page, or terms of service was found as of 2026-07-19.
+- No public GitHub organization and no first-party packages on npm, PyPI, or other
+  registries were found.
+- No vulnerability disclosure program or trust center was found by probe, despite the
+  site describing HIPAA-aligned safeguards, encryption, role-based access, and
+  continuous monitoring.
