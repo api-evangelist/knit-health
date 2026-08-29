@@ -18,6 +18,17 @@ description: 'Knit Health Technologies, Inc. is a healthcare AI company spun out
   Knit states that its engineers work alongside customer teams to design and deploy
   APIs tailored to each health system; as of this profile there is no public developer
   portal, API documentation, or self-serve API surface.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
