@@ -58,7 +58,7 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Clinical Intelligence
 - Electronic Health Records
 - Health Systems
@@ -75,6 +75,7 @@ tags_raw:
 - Health Systems
 - Care Coordination
 - Enterprise
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
