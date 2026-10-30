@@ -64,26 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Knit Health Technologies, Inc. is a healthcare AI company spun out of the University of California, Berkeley, building a Large Clinical Behavior Model (LCBM) — a healthcare-native intelligence layer trained on the real decision patterns of practicing clinicians captured in EMR data, rather than on medical text alone. The model is trained on Truveta EMR data representing more than 130 million patients across 30 U.S. health systems, then fine-tuned to an individual health system's own practice patterns.
+Knit Health Technologies, Inc. is a healthcare AI company spun out of the University of California, Berkeley, building what it calls a Large Clinical Behavior Model (LCBM) — a healthcare-native intelligence layer trained on real clinical decision patterns rather than text alone. Where conventional clinical AI is built on large language models trained on medical literature, Knit learns from the actions of practicing clinicians captured in electronic medical records: referral decisions, scheduling behavior, patient routing, discharge timing, and care coordination. The model is trained on Truveta EMR data representing more than 130 million patients across 30 U.S. health systems, using deep reinforcement learning, causal inference, and behavioral cloning, then fine-tuned to an individual health system's own practice patterns. Knit sells to health systems as an enterprise intelligence platform spanning intelligent specialist routing, predictive patient flow, optimized care team allocation, clinical variation insight, and proactive care recommendations. The company launched from stealth in May 2026 with an $11.6M seed round co-led by Uncork Capital and Frist Cressey Ventures, following a pre-seed led by Moxxie Ventures with Coalition Operators. Knit states that its engineers work alongside customer teams to design and deploy APIs tailored to each health system; as of this profile there is no public developer portal, API documentation, or self-serve API surface.
 
-Knit sells to health systems as an enterprise intelligence platform spanning intelligent specialist routing, predictive patient flow, optimized care team allocation, clinical variation insight, and proactive care recommendations.
+**Areas:** Company · Health · Healthcare · Artificial Intelligence · Machine Learning · Clinical Intelligence · Electronic Health Records · Health Systems · Care Coordination · Enterprise
 
-- Website: https://www.knit.health/
-- Technology: https://www.knit.health/ai
-- Blog: https://www.knit.health/blog
+## Knit Health on APIs.io
 
-Backed by: Uncork Capital and Frist Cressey Ventures (seed, $11.6M, May 2026); Moxxie Ventures and Coalition Operators (pre-seed).
+Everything profiled for Knit Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/knit-health/](https://apis.io/providers/knit-health/)** — or go straight to one of the APIs or properties below.
 
-## API surface
+### Published properties
 
-Knit publishes **no public API, developer portal, API documentation, SDK, CLI, or MCP server** as of 2026-07-19. The company states that its engineers work alongside customer teams to design and deploy APIs tailored to each health system, so the integration surface is bespoke and contractual rather than self-serve. No public GitHub organization or first-party package on npm/PyPI was found.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Note: `knithealth.com` belongs to an unrelated, defunct consumer baby-sleep-monitor company of the same name (2015–2019). This profile covers the 2025-founded clinical AI company at `knit.health` (`knithealth.ai` redirects there).
+#### Security (1)
 
-## Artifacts
+Authentication, trust centre, and vulnerability disclosure.
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/knit-health-domain-security.yml` | probed |
-| Well-known probe | `well-known/knit-health-well-known.yml` | searched (no surface published) |
-| llms.txt | `llms/knit-health-llms.txt` | generated |
+- [Knit Health Domain Security](https://apis.io/security/knit-health/knit-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.knit.health/)
+- [Blog](https://www.knit.health/blog)
+- [Privacy policy](https://www.knit.health/privacy)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/knit-health/](https://apis.io/providers/knit-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Knit Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/knit-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
